@@ -6,7 +6,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://backlog-pal-3aa6ae50-33ba-11ea-aba3-ef2d822eec5b.apps.evans.pal.pivotal.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-43d81ed2-33ba-11ea-826c-ffdca2224fdd.apps.evans.pal.pivotal.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-backlog-database

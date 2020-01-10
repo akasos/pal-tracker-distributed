@@ -6,7 +6,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: http://allocations-pal-2fb18c18-33ba-11ea-82e0-b76648cd2adf.apps.evans.pal.pivotal.io
+    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-43d81ed2-33ba-11ea-826c-ffdca2224fdd.apps.evans.pal.pivotal.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-allocations-database
